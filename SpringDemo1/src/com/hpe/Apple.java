@@ -4,6 +4,6 @@ package com.hpe;
 public class Apple implements IApple {
 	
 	public void eat() {
-		System.out.println("Apple.eat method invoked");
+		System.out.println("Apple.eat method invokeded");
 	}
 }
