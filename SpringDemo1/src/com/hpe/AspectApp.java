@@ -10,6 +10,7 @@ public class AspectApp {
 	public void test(){
 		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		Apple fruit = (Apple) context.getBean("apple");
+		System.out.println("Really?");
 		fruit.eat();
 	}
 }
